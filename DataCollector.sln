@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6E7E9B30-BE3C-4D53-AEA3-805D94F52CC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Emisor", "Emisor", "{FFFF3A8E-B320-4855-9C19-2F621C696464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataEmisor", "DataEmisor\DataEmisor.csproj", "{6DC62FFA-11FE-4C10-A3DA-9DA280170480}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FFFF3A8E-B320-4855-9C19-2F621C696464} = {6E7E9B30-BE3C-4D53-AEA3-805D94F52CC8}
+		{6DC62FFA-11FE-4C10-A3DA-9DA280170480} = {FFFF3A8E-B320-4855-9C19-2F621C696464}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DC62FFA-11FE-4C10-A3DA-9DA280170480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DC62FFA-11FE-4C10-A3DA-9DA280170480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DC62FFA-11FE-4C10-A3DA-9DA280170480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DC62FFA-11FE-4C10-A3DA-9DA280170480}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

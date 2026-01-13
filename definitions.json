@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "name": "emisor_user",
+      "password": "password_emisor",
+      "tags": ""
+    },
+    {
+      "name": "receptor_user",
+      "password": "password_receptor",
+      "tags": ""
+    },
+    {
+      "name": "admin",
+      "password": "admin_password",
+      "tags": "administrator"
+    }
+  ],
+  "vhosts": [ { "name": "/" } ],
+  "permissions": [
+    {
+      "user": "emisor_user",
+      "vhost": "/",
+      "configure": ".*", 
+      "write": ".*",
+      "read": ".*"
+    },
+    {
+      "user": "receptor_user",
+      "vhost": "/",
+      "configure": ".*",
+      "write": "^$",
+      "read": ".*"
+    },
+    {
+      "user": "admin",
+      "vhost": "/",
+      "configure": ".*",
+      "write": ".*",
+      "read": ".*"
+    }
+  ]
+}
